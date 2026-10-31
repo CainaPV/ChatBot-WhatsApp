@@ -1,0 +1,54 @@
+# Segredos e configuracoes locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+evo_api_authentication.txt
+
+# Ambientes virtuais Python
+venv/
+.venv/
+env/
+ENV/
+
+# Cache, bytecode e ferramentas Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Empacotamento e distribuicao
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Logs, arquivos temporarios e bancos locais
+*.log
+logs/
+tmp/
+temp/
+*.sqlite3
+*.db
+
+# IDEs e sistema operacional
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Docker Compose local
+docker-compose.override.yml
